@@ -2,13 +2,12 @@ package org.madhu.SpringAnnotationEx;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+@Component 
 
-@Component
-//@Primary
-public class SnapDragon implements MobileProcessor {
+public class MediaTek implements MobileProcessor {
 
 	public void process() {
-		System.out.println("good processor");
+		System.out.println("ok processor");
 
 	}
 
